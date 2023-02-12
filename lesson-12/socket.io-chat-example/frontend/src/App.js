@@ -12,7 +12,7 @@ const socket = io.connect("http://localhost:5000")
 
 function App() {
   const [nickname, setNickname] = useState("");
-  const [messages, setMessages] = useState([])
+  const [messages, setMessages] = useState([])  
 
   useEffect(()=> {
     // socket.on("connect", ()=> {
